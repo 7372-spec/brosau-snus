@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "brosau snus",
+    "slug": "brosau snus",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tvoeprikol.brosausnus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE"
+      },
+      "package": "com.tvoeprikol.brosausnus"
+    },
+    "web": {
+      "favicon": "./public/favicon.ico"
+    },
+    "plugins": ["expo-font", "expo-notifications"],
+    "entryPoint": "./index.js"
+  }
+}
